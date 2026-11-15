@@ -1,0 +1,3 @@
+[submodule "projectTesting/HomeFit"]
+	path = projectTesting/HomeFit
+	url = https://github.com/adil-java/HomeFit.git
