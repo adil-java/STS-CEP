@@ -1,0 +1,24 @@
+{
+  "name": "Modern Coffee Table",
+  "description": "Solid wood top with metal base",
+  "price": 24999,
+  "comparePrice": 27999,
+  "cost": 18000,
+  "quantity": 10,
+  "isActive": true,
+  "isFeatured": false,
+  "categoryIds": [
+    "22222222-2222-2222-2222-222222222222"
+  ],
+  "variants": [
+    {
+      "name": "Color",
+      "value": "Walnut"
+    },
+    {
+      "name": "Size",
+      "value": "Medium"
+    }
+  ],
+  "generate3D": false
+}

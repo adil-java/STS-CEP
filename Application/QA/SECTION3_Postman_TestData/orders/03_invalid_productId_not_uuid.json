@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "productId": "not-a-uuid",
+      "quantity": 1
+    }
+  ],
+  "shippingAddress": {
+    "name": "Ali Khan",
+    "email": "ali@example.com",
+    "phone": "+92-300-0000000",
+    "street": "Street 1",
+    "city": "Lahore",
+    "postalCode": "54000",
+    "country": "Pakistan"
+  },
+  "paymentMethod": "card"
+}

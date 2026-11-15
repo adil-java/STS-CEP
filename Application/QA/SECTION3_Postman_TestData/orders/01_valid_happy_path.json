@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "productId": "11111111-1111-1111-1111-111111111111",
+      "quantity": 1,
+      "options": {
+        "color": "teal"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "name": "Ali Khan",
+    "email": "ali@example.com",
+    "phone": "+92-300-0000000",
+    "street": "Street 1",
+    "city": "Lahore",
+    "postalCode": "54000",
+    "country": "Pakistan"
+  },
+  "billingAddress": {
+    "name": "Ali Khan",
+    "email": "ali@example.com",
+    "phone": "+92-300-0000000",
+    "street": "Street 1",
+    "city": "Lahore",
+    "postalCode": "54000",
+    "country": "Pakistan"
+  },
+  "paymentMethod": "card",
+  "couponCode": "WELCOME10",
+  "notes": "Please deliver after 5 PM"
+}
