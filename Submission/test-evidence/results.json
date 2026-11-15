@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ADM-ECP-01",
+    "actual": "HTTP 201; category saved: true",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:03.512Z"
+  },
+  {
+    "id": "ADM-ECP-02",
+    "actual": "HTTP 400 \"Category name is required\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:05.448Z"
+  },
+  {
+    "id": "ADM-ECP-03",
+    "actual": "HTTP 201; blank category saved in DB: true (slug \"-\")",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:07.253Z"
+  },
+  {
+    "id": "ADM-ECP-04",
+    "actual": "HTTP 400 \"Category already exists\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:09.105Z"
+  },
+  {
+    "id": "ADM-ECP-05",
+    "actual": "HTTP 200; name now \"Dining Table\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:10.852Z"
+  },
+  {
+    "id": "ADM-ECP-06",
+    "actual": "HTTP 400 \"Category name already exists\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:12.932Z"
+  },
+  {
+    "id": "ADM-ECP-07",
+    "actual": "HTTP 200; isActive in DB = false",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:14.827Z"
+  },
+  {
+    "id": "ADM-ECP-08",
+    "actual": "HTTP 400 \"Invalid field. Must be \"isActive\" or \"isFeatured\"\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:16.753Z"
+  },
+  {
+    "id": "ADM-DT-01",
+    "actual": "HTTP 401 \"No token provided\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:18.750Z"
+  },
+  {
+    "id": "ADM-DT-02",
+    "actual": "HTTP 401 \"Invalid token\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:20.548Z"
+  },
+  {
+    "id": "ADM-DT-03",
+    "actual": "HTTP 403 \"Not authorized as an admin\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:22.289Z"
+  },
+  {
+    "id": "ADM-DT-04",
+    "actual": "HTTP 200; 2 products listed",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:24.354Z"
+  },
+  {
+    "id": "ADM-DT-05",
+    "actual": "HTTP 200 \"Category deleted successfully\"; still in DB: false",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:26.135Z"
+  },
+  {
+    "id": "ADM-DT-06",
+    "actual": "HTTP 400 \"Cannot delete category that is assigned to products\"; still in DB: true",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:27.972Z"
+  },
+  {
+    "id": "ADM-DT-07",
+    "actual": "HTTP 404 \"Category not found\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:29.905Z"
+  },
+  {
+    "id": "ADM-DT-08",
+    "actual": "HTTP 200 \"Product deleted\"; still in DB: false",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:32.123Z"
+  },
+  {
+    "id": "ADM-DT-09",
+    "actual": "HTTP 200 \"This product has orders, so it was hidden from the shop instead of deleted.\"; product kept in DB: true, isActive = false",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:33.971Z"
+  },
+  {
+    "id": "ADM-DT-10",
+    "actual": "HTTP 404 \"Product not found\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:35.898Z"
+  },
+  {
+    "id": "CART-BVA-01",
+    "actual": "HTTP 201; cart lines stored: 1 (qty -1), total -100",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:37.825Z"
+  },
+  {
+    "id": "CART-BVA-02",
+    "actual": "HTTP 201; cart lines stored: 1 (qty 0), total 0",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:40.122Z"
+  },
+  {
+    "id": "CART-BVA-03",
+    "actual": "HTTP 201; cart lines stored: 1 (qty 1), total 100",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:41.888Z"
+  },
+  {
+    "id": "CART-BVA-04",
+    "actual": "HTTP 201; cart lines stored: 1 (qty 2), total 200",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:43.781Z"
+  },
+  {
+    "id": "CART-BVA-05",
+    "actual": "HTTP 201; cart lines stored: 1 (qty 9), total 900",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:45.819Z"
+  },
+  {
+    "id": "CART-BVA-06",
+    "actual": "HTTP 201; cart lines stored: 1 (qty 10), total 1000",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:47.625Z"
+  },
+  {
+    "id": "CART-BVA-07",
+    "actual": "HTTP 201; cart lines stored: 1 (qty 11), total 1100",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:49.501Z"
+  },
+  {
+    "id": "CART-BVA-08",
+    "actual": "HTTP 200; cart lines left: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:47:51.585Z"
+  },
+  {
+    "id": "CART-ECP-01",
+    "actual": "HTTP 500 \"Something went wrong\"; cart lines stored: 0",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:53.520Z"
+  },
+  {
+    "id": "CART-ECP-02",
+    "actual": "HTTP 500 \"Something went wrong\"; cart lines stored: 0",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:55.748Z"
+  },
+  {
+    "id": "CART-ECP-03",
+    "actual": "HTTP 500 \"Something went wrong\"; cart lines stored: 0",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:57.692Z"
+  },
+  {
+    "id": "CART-ECP-04",
+    "actual": "HTTP 201; cart lines stored: 1",
+    "status": "Fail",
+    "executedAt": "2026-11-14T13:47:59.482Z"
+  },
+  {
+    "id": "CART-ECP-05",
+    "actual": "HTTP 401 \"Not authorized to access this route\"",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:48:01.578Z"
+  },
+  {
+    "id": "CART-ECP-06",
+    "actual": "HTTP 201; cart lines: 1, qty 2, total 200",
+    "status": "Pass",
+    "executedAt": "2026-11-14T13:48:03.547Z"
+  }
+]

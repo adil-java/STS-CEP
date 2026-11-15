@@ -1,0 +1,86 @@
+[
+  {
+    "id": "AR-DT-01",
+    "actual": "Alert \"3D preview not available\", no navigation",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.623Z"
+  },
+  {
+    "id": "AR-DT-02",
+    "actual": "Opened /product/model-viewer",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.624Z"
+  },
+  {
+    "id": "AR-DT-03",
+    "actual": "Opened /product/model-viewer",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.625Z"
+  },
+  {
+    "id": "AR-DT-04",
+    "actual": "Opened /product/model-viewer",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.625Z"
+  },
+  {
+    "id": "AR-DT-05",
+    "actual": "Opened /product/model-viewer",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.625Z"
+  },
+  {
+    "id": "AR-DT-06",
+    "actual": "Opened /product/model-viewer; device asked 1x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.625Z"
+  },
+  {
+    "id": "AR-DT-07",
+    "actual": "Opened /product/ar; device asked 1x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.625Z"
+  },
+  {
+    "id": "AR-DT-08",
+    "actual": "Opened /product/ar; device asked 1x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:24.625Z"
+  },
+  {
+    "id": "AR-DT-09",
+    "actual": "Opened /product/ar; device asked 3x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:25.242Z"
+  },
+  {
+    "id": "AR-DT-10",
+    "actual": "1st tap: Opened /product/model-viewer after 4.3s; 2nd tap (device now answers yes): Opened /product/ar",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:29.554Z"
+  },
+  {
+    "id": "AR-DT-11",
+    "actual": "2nd tap: Opened /product/ar; device asked 1x in total",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:29.554Z"
+  },
+  {
+    "id": "AR-ECP-01",
+    "actual": "Alert \"3D preview not available\", no navigation",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:29.554Z"
+  },
+  {
+    "id": "AR-ECP-02",
+    "actual": "Alert \"3D preview not available\", no navigation",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:29.554Z"
+  },
+  {
+    "id": "AR-ECP-03",
+    "actual": "Opened /product/ar; modelUrl received by AR screen = \"https://cdn.homefit.test/models/oak chair & table.glb\"",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:14:29.554Z"
+  }
+]

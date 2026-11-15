@@ -1,0 +1,140 @@
+[
+  {
+    "id": "PROD-DT-01",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 20, images 1, AR model yes); 3D generator called 1x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:28.696Z"
+  },
+  {
+    "id": "PROD-DT-02",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 20, images 1, AR model no); 3D generator called 1x (failed)",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:29.515Z"
+  },
+  {
+    "id": "PROD-DT-03",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 20, images 0, AR model no); 3D generator called 0x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:30.316Z"
+  },
+  {
+    "id": "PROD-DT-04",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 20, images 1, AR model no); 3D generator called 0x",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:31.140Z"
+  },
+  {
+    "id": "PROD-ECP-01",
+    "actual": "HTTP 400 \"Something went wrong. Please try again.\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:31.943Z"
+  },
+  {
+    "id": "PROD-ECP-02",
+    "actual": "HTTP 201; products saved: 1 (name \"   \", slug \"\")",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:32.753Z"
+  },
+  {
+    "id": "PROD-ECP-03",
+    "actual": "HTTP 400 \"Failed to create product: Product name validation failed: 12345 (type: number)\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:33.586Z"
+  },
+  {
+    "id": "PROD-ECP-04",
+    "actual": "HTTP 400 \"Something went wrong. Please try again.\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:34.407Z"
+  },
+  {
+    "id": "PROD-ECP-05",
+    "actual": "HTTP 400 \"Something went wrong. Please try again.\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:35.214Z"
+  },
+  {
+    "id": "PROD-ECP-06",
+    "actual": "HTTP 400 \"Something went wrong. Please try again.\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:36.043Z"
+  },
+  {
+    "id": "PROD-ECP-07",
+    "actual": "HTTP 500 \"Server Error\"; products saved: 0",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:36.857Z"
+  },
+  {
+    "id": "PROD-ECP-08",
+    "actual": "HTTP 403 \"Not authorized as a seller\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:37.672Z"
+  },
+  {
+    "id": "PROD-ECP-09",
+    "actual": "HTTP 401 \"Not authorized to access this route\"; products saved: 0",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:38.788Z"
+  },
+  {
+    "id": "PROD-BVA-01",
+    "actual": "HTTP 201; products saved: 1 (price -1, stock 20, images 1, AR model no)",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:39.623Z"
+  },
+  {
+    "id": "PROD-BVA-02",
+    "actual": "HTTP 201; products saved: 1 (price 0, stock 20, images 1, AR model no)",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:40.462Z"
+  },
+  {
+    "id": "PROD-BVA-03",
+    "actual": "HTTP 201; products saved: 1 (price 0.01, stock 20, images 1, AR model no)",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:41.272Z"
+  },
+  {
+    "id": "PROD-BVA-04",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock -1, images 1, AR model no)",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:42.091Z"
+  },
+  {
+    "id": "PROD-BVA-05",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 0, images 1, AR model no)",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:42.929Z"
+  },
+  {
+    "id": "PROD-BVA-06",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 1, images 1, AR model no)",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:43.908Z"
+  },
+  {
+    "id": "PROD-BVA-07",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 20, images 5, AR model no)",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:44.722Z"
+  },
+  {
+    "id": "PROD-BVA-08",
+    "actual": "HTTP 500 \"Server Error\"; products saved: 0",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:45.537Z"
+  },
+  {
+    "id": "PROD-BVA-09",
+    "actual": "HTTP 201; products saved: 1 (price 15000, stock 20, images 1, AR model no)",
+    "status": "Pass",
+    "executedAt": "2026-11-15T16:13:46.365Z"
+  },
+  {
+    "id": "PROD-BVA-10",
+    "actual": "HTTP 500 \"Server Error\"; products saved: 0",
+    "status": "Fail",
+    "executedAt": "2026-11-15T16:13:47.201Z"
+  }
+]
